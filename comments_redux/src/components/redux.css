@@ -1,0 +1,228 @@
+/* Barre de navigation */
+.navbar {
+    background-color: #f5f5dc; /* Beige */
+    color: #333; /* Noir doux */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center; /* Centre les éléments */
+    align-items: center;
+    position: absolute;
+    top: 10%; /* Déplacé vers le haut */
+    left: 50%;
+    transform: translate(-50%, 0); /* Centre horizontalement */
+    width: 55%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Liste des liens */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    /* justify-content: space-between; */
+  }
+  
+  /* Liens de navigation */
+  .nav-item {
+    text-decoration: none;
+    color: #333; /* Noir doux */
+    font-size: 1rem;
+    padding: 8px 15px;
+    transition: background 0.3s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .nav-item:hover {
+    background: #ddd;
+  }
+  
+  /* Conteneur du formulaire */
+.form-container {
+  background-color: #f5f5dc; /* Beige, même couleur que la navbar */
+  color: #333; /* Noir doux */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 120px auto; /* Centre le formulaire horizontalement */
+  text-align: center;
+}
+
+/* Titre du formulaire */
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Style des champs de saisie */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Bouton de soumission */
+.submit-button {
+  background-color: #333; /* Noir */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background: #555; /* Gris foncé en hover */
+}
+
+/* Conteneur principal */
+.messages-container {
+  background-color: #f5f5dc; /* Beige, même couleur que la navbar */
+  color: #333; /* Noir doux */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin: 120px auto; /* Centre la table horizontalement */
+  text-align: center;
+}
+
+/* Titre */
+.messages-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Tableau */
+.messages-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.messages-table th, .messages-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.messages-table th {
+  background-color: #333; /* Noir */
+  color: white;
+}
+
+/* Bouton Delete */
+.delete-button {
+  background-color: #d9534f; /* Rouge */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+  background: #c9302c; /* Rouge foncé */
+}
+
+/* Lien Modify */
+.modify-link {
+  display: inline-block;
+  background-color: #5bc0de; /* Bleu clair */
+  color: white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.modify-link:hover {
+  background: #31b0d5; /* Bleu plus foncé */
+}
+
+/* Conteneur principal */
+.modify-container {
+  background-color: #f5f5dc; /* Beige doux */
+  color: #333; /* Noir doux */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 120px auto; /* Centre le formulaire */
+  text-align: center;
+}
+
+/* Titre */
+.modify-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Formulaire */
+.modify-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Groupes de formulaire */
+.form-group {
+  width: 80%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Bouton Modifier */
+.modify-button {
+  background-color: #5bc0de; /* Bleu clair */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.modify-button:hover {
+  background: #31b0d5; /* Bleu plus foncé */
+}
