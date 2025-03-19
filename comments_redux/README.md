@@ -1,8 +1,25 @@
-# React + Vite
+# Gestion des Commentaires avec Redux et React.js  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un projet simple permettant d'ajouter, modifier et supprimer des commentaires en utilisant **React.js** et **Redux**.
 
-Currently, two official plugins are available:
+## 🚀 Fonctionnalités  
+- ✅ **Ajouter** un commentaire  
+- ✏️ **Modifier** un commentaire  
+- 🗑️ **Supprimer** un commentaire  
+- 🔄 Gestion de l'état global avec **Redux**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies utilisées  
+- **React.js** ⚛️  
+- **Redux Toolkit**  
+- **Bootstrap** (pour le style)
+
+## captures 
+![Comments](captures/comments.png)
+![Editing Comments](captures/modifier.png) 
+
+## 📂 Installation et exécution  
+
+1️⃣ **Cloner le projet**  
+```sh
+git clone https://github.com/ton-profil/comment-redux.git
+cd comment-redux
